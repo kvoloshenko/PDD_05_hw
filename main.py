@@ -24,15 +24,15 @@ while True:
     elif choice == '3':
         f.copy_dir()
     elif choice == '4':
-        pass
+        f.info_dir('all')
     elif choice == '5':
-        pass
+        f.info_dir('dirs')
     elif choice == '6':
-        pass
+        f.info_dir('files')
     elif choice == '7':
-        pass
+        f.info_os()
     elif choice == '8':
-        pass
+        f.about()
     elif choice == '9':
         pass
     elif choice == '10':
