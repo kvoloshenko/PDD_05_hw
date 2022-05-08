@@ -1,3 +1,4 @@
+import os_tools.tools as f
 """
 Консольный файловый менеджер
 """
@@ -17,9 +18,9 @@ while True:
 
     choice = input('Выберите пункт меню : ')
     if choice == '1':
-        pass
+        f.create_dir()
     elif choice == '2':
-        pass
+        f.del_dir()
     elif choice == '3':
         pass
     elif choice == '4':
