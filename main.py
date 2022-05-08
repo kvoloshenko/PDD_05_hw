@@ -22,7 +22,7 @@ while True:
     elif choice == '2':
         f.del_dir()
     elif choice == '3':
-        pass
+        f.copy_dir()
     elif choice == '4':
         pass
     elif choice == '5':
