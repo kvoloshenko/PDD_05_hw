@@ -1,5 +1,6 @@
 import os_tools.tools as f
 import bank.bank as b
+import victory.victory as v
 """
 Консольный файловый менеджер
 """
@@ -35,7 +36,7 @@ while True:
     elif choice == '8':
         f.about()
     elif choice == '9':
-        pass
+        v.run()
     elif choice == '10':
         b.run()
     elif choice == '1':
