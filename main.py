@@ -39,8 +39,8 @@ while True:
         v.run()
     elif choice == '10':
         b.run()
-    elif choice == '1':
-        pass
+    elif choice == '11':
+        f.chenge_dir()
     elif choice == '12':
         break
     else:

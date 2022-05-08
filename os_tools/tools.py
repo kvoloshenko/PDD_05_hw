@@ -69,9 +69,20 @@ def info_os():
 
 def about():
     print('      ', '(c) Konstantin Voloshenko')
-
+"""
+смена рабочей директории
+"""
+def chenge_dir():
+    print(os.getcwd())
+    dir_name = input('   Введите новой робочей директории: ')
+    if os.path.exists(dir_name):
+        os.chdir(dir_name)
+        print(os.getcwd())
+    else:
+        print('      Папка отсутсвует')
 
 if __name__ == '__main__':
     # del_dir()
     # copy_dir()
-    info_dir('dirs')
+    # info_dir('dirs')
+    chenge_dir()
