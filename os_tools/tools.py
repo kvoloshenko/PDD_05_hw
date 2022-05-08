@@ -15,7 +15,9 @@ def create_dir():
 def del_dir():
     dir_name = input('   Введите имя папки: ')
     if os.path.exists(dir_name):
-        os.rmdir(dir_name)
+        if os.path.isfile(dir_name):
+            os.remove(dir_name)
+        else: os.rmdir(dir_name)
 
 if __name__ == '__main__':
     create_dir()
